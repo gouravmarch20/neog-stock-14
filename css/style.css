@@ -1,0 +1,15 @@
+body{
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+.label-item{
+    padding: .5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
