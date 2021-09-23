@@ -1,5 +1,9 @@
+:root{
+--color-sucess : #02B290;
+--color-vibrant : #E07C24;
+}
 body{
-
+    background-color: var(--color-vibrant) ;
 }
 .container{
     display: flex;
@@ -12,4 +16,14 @@ body{
     padding: .5rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
+}
+
+button{
+    background-color:var(--color-sucess ) ;
+    /* background-color:red; */
+    width: 30%;
+    margin: 0 auto;
+    margin-top: 1rem;
+    border-radius: 2rem;
+    
 }
