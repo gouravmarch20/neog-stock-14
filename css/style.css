@@ -21,9 +21,14 @@ body{
 button{
     background-color:var(--color-sucess ) ;
     /* background-color:red; */
-    width: 30%;
+    width: 40%;
     margin: 0 auto;
     margin-top: 1rem;
     border-radius: 2rem;
+    padding: .7rem;
     
+}
+input{
+    padding: .7rem;
+    border-radius: 2rem;
 }
