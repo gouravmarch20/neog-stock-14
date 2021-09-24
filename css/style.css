@@ -17,8 +17,11 @@ body {
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
-h1{
+h1, a{
     color: white;
+}
+a{
+    text-decoration: none;
 }
 
 button {
@@ -40,3 +43,25 @@ input {
   border-radius: 1rem;
   color: wheat;
 }
+footer {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin: auto;
+    margin-top: 3rem;
+  }
+  footer p {
+    text-align: center;
+    font-size: large;
+  }
+  footer a {
+    text-align: center;
+    
+  }
+  i {
+   text-align: center ;
+    margin-top: .9rem;
+    font-size: 1.7rem;
+    margin-left: 1rem;
+    color: #03203C;
+  }
