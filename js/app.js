@@ -14,11 +14,11 @@ function calculateInPercentage (netCash) {
 
 function displayOutput (netCash, cashPercentage) {
   if (netCash > 0) {
-    output.innerText = `you made profit of ${netCash} in percentage your profit is ${cashPercentage}`
+    output.innerText = `you made profit of ${netCash.toFixed(2)} in percentage your profit is ${cashPercentage.toFixed(2)}`
     output.style.backgroundColor = 'green'
   } else {
     output.innerText = ' loss'
-    output.innerText = `you made loss of ${netCash} in percentage  & your loss is ${cashPercentage}`
+    output.innerText = `you made loss of ${netCash.toFixed(2)} in percentage  & your loss is ${cashPercentage.toFixed(2)}`
     output.style.backgroundColor = 'red'
   }
 }
