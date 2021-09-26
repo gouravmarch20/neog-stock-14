@@ -45,7 +45,7 @@ input {
   border-radius: 1rem;
   color: #51FF0D ;
   background-color:black;
-  font-weight: 700;
+  font-weight: bolder;
 }
 footer {
   display: flex;

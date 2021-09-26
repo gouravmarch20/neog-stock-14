@@ -17,14 +17,20 @@ function displayOutput (netCash, cashPercentage) {
     output.innerText = `you made profit of ${netCash.toFixed(2)}₹
      or ${cashPercentage.toFixed(2)} %`
     output.style.backgroundColor = 'green'
+    output.style.fontWeight = 'bolder'
   } else {
     output.innerText = ' loss'
     output.innerText = `you made loss of ${netCash.toFixed(2)}₹
     or  ${cashPercentage.toFixed(2)} %`
-    output.style.backgroundColor = '#B9345A'
+    output.style.backgroundColor = '#6A1B4D'
+    output.style.color = '#E03B8B '
+    output.style.fontWeight = 'bolder'
   }
 }
 function giveOutput () {
+  if (currentPrice.value == false) {
+    return alert("inproper data given by you ")
+  }
   const netCash = calculateInValue(
     currentPrice.value,
     stockQuantity.value,
