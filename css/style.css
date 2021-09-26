@@ -17,16 +17,18 @@ body {
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
-h1, a{
-    color: white;
+h1,
+a {
+  color: #51FF0D;
 }
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
 
 button {
   background-color: var(--color-sucess);
-  /* background-color:red; */
+  cursor: pointer;
+  font-weight: 700;
   width: 40%;
   margin: 0 auto;
   margin-top: 1rem;
@@ -38,30 +40,31 @@ input {
   border-radius: 2rem;
 }
 #output {
-    margin-top: 1rem;
-    padding: 2rem;
+  margin-top: 1rem;
+  padding: 2rem;
   border-radius: 1rem;
-  color: wheat;
+  color: #51FF0D ;
+  background-color:black;
+  font-weight: 700;
 }
 footer {
-    display: flex;
-    justify-content: center;
-    width: 50%;
-    margin: auto;
-    margin-top: 3rem;
-  }
-  footer p {
-    text-align: center;
-    font-size: large;
-  }
-  footer a {
-    text-align: center;
-    
-  }
-  i {
-   text-align: center ;
-    margin-top: .9rem;
-    font-size: 1.7rem;
-    margin-left: 1rem;
-    color: #03203C;
-  }
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  margin: auto;
+  margin-top: 3rem;
+}
+footer p {
+  text-align: center;
+  font-size: large;
+}
+footer a {
+  text-align: center;
+}
+i {
+  text-align: center;
+  margin-top: 0.9rem;
+  font-size: 1.7rem;
+  margin-left: 1rem;
+  color: #03203c;
+}
